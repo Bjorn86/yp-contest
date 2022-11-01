@@ -8,3 +8,13 @@
 
 /* CONTENT */
 @import url('../blocks/content/content.css');
+
+/* HEADER */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__link/header__link.css');
+
+/* MENU */
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/__list/menu__list.css');
+@import url('../blocks/menu/__item/menu__item.css');
+@import url('../blocks/menu/__link/menu__link.css');
