@@ -21,6 +21,11 @@
 @import url('../blocks/intro/__text-wrapper/intro__text-wrapper.css');
 @import url('../blocks/intro/__img/intro__img.css');
 
+/* FOOTER */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__text-wrapper/footer__text-wrapper.css');
+@import url('../blocks/footer/__text/footer__text.css');
+
 /* MENU */
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/menu/__list/menu__list.css');
