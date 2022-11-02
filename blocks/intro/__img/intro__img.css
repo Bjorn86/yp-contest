@@ -1,0 +1,6 @@
+.intro__img {
+  width: 32%;
+  margin: 0 auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}

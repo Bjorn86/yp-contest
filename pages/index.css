@@ -2,6 +2,9 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/font.css');
 
+/* COMMON */
+@import url('../blocks/common/variables.css');
+
 /* PAGE */
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__content/page__content.css');
@@ -13,8 +16,19 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__link/header__link.css');
 
+/* INTRO */
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__text-wrapper/intro__text-wrapper.css');
+@import url('../blocks/intro/__img/intro__img.css');
+
 /* MENU */
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/menu/__list/menu__list.css');
 @import url('../blocks/menu/__item/menu__item.css');
 @import url('../blocks/menu/__link/menu__link.css');
+
+/* SECTION-TITLE */
+@import url('../blocks/section-title/section-title.css');
+
+/* SECTION-DESCRIPTION */
+@import url('../blocks/section-description/section-description.css');

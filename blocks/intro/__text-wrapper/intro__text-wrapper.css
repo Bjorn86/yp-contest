@@ -1,0 +1,6 @@
+.intro__text-wrapper {
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

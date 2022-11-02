@@ -1,0 +1,9 @@
+.section-description {
+  font-family: "Raleway", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1.1;
+}
