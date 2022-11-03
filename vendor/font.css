@@ -21,3 +21,10 @@
   font-weight: 900;
   font-style: normal;
 }
+
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway-SemiBold.woff) format("woff"), url(../fonts/Raleway-SemiBold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
