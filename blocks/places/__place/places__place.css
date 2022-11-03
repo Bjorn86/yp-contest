@@ -1,23 +1,11 @@
 .places__place {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1280px;
+  max-width: 100%;
   font-family: "Raleway", "Arial", sans-serif;
 }
 
-@media screen and (max-width: 1124px) {
-.places__place {
-    max-width: 928px;
- }
-}
-
-@media screen and (max-width: 984px) {
-  .places__place {
-      max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .places__place {
     grid-template-columns: 1fr;
     max-width: 100%;

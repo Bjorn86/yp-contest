@@ -1,0 +1,10 @@
+.places__paragraph-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+@media screen and (max-width:1124px) {
+  .places__paragraph-wrapper {
+  }
+}
