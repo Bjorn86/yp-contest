@@ -1,0 +1,6 @@
+@media screen and (max-width: 800px) {
+  .places__image_reverse {
+    order: -1;
+  }
+}
+

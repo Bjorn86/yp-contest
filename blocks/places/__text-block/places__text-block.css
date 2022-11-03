@@ -1,3 +1,23 @@
 .places__text-block {
-  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px;
+  box-sizing: border-box;
+  max-width: 500px;
+  row-gap: 50px;
 }
+
+@media screen and (max-width: 896px) {
+  .places__text-block {
+    padding-left: 15px;
+    max-width: 100%;
+    row-gap: 80px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places__text-block {
+    row-gap: 30px;
+    padding: 30px 15px;
+  }
