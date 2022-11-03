@@ -11,3 +11,17 @@
   justify-content: space-between;
   align-items: baseline;
 }
+
+@media screen and (max-width: 896px) {
+  .header {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .header {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

@@ -1,3 +1,24 @@
 .footer__text-wrapper {
   margin: 215px 0;
 }
+
+@media screen and (max-width: 1152px) {
+  .footer__text-wrapper {
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .footer__text-wrapper {
+    margin-top: 140px;
+    margin-bottom: 140px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer__text-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}

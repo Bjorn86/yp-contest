@@ -8,3 +8,15 @@
   line-height: 1.3;
   word-spacing: 3px;
 }
+
+@media screen and (max-width: 1152px) {
+  .section-description {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .section-description {
+    font-size: 20px;
+  }
+}

@@ -5,3 +5,15 @@
   line-height: 1.2;
   text-align: center;
 }
+
+@media screen and (max-width: 896px) {
+  .footer__text {
+    font-size: 33px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .footer__text {
+    font-size: 24px;
+  }
+}
