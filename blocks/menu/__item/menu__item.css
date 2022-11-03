@@ -1,0 +1,5 @@
+@media screen and (max-width: 544px) {
+  .menu__item:last-of-type {
+    margin-top: 40px;
+  }
+}

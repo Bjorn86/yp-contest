@@ -5,3 +5,10 @@
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 544px) {
+  .menu__list {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

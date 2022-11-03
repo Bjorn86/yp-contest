@@ -1,0 +1,15 @@
+.hamburger_active .hamburger__line {
+  margin-bottom: -2px;
+}
+
+.hamburger_active .hamburger__line:nth-child(1) {
+  transform: translateY(3px) rotate(-45deg);
+}
+
+.hamburger_active .hamburger__line:nth-child(2) {
+  display: none;
+}
+
+.hamburger_active .hamburger__line:nth-child(3) {
+  transform: translateY(3px) rotate(45deg);
+}

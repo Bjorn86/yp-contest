@@ -1,0 +1,9 @@
+.menu__item_position_right {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 544px) {
+  .menu__item_position_right {
+    margin-left: 0;
+  }
+}
