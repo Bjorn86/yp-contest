@@ -58,3 +58,12 @@
 /* HOVER-LINK */
 @import url('../blocks/hover-link/hover-link.css');
 
+/* OVERLAY */
+@import url('../blocks/overlay/overlay.css');
+
+/* MODAL */
+@import url('../blocks/modal/modal.css');
+@import url('../blocks/modal/__close/modal__close.css');
+@import url('../blocks/modal/__form/modal__form.css');
+@import url('../blocks/modal/__input-name/modal__input-name.css');
+

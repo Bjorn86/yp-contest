@@ -1,0 +1,11 @@
+.modal__close {
+  position: absolute;
+  right: -40px;
+  top: 5px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: url('../../../images/cancel-circle.svg') center center/contain no-repeat;
+}
