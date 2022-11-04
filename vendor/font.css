@@ -9,14 +9,14 @@
 @font-face {
   font-family: Raleway;
   font-display: swap;
-  src: url("../fonts/Raleway-Black.woff2") format("woff2"), url("../fonts/Raleway-Black.woff") format("woff");
-  font-weight: 900;
+  src: url("../fonts/Raleway-SemiBold.woff2") format("woff2"), url("../fonts/Raleway-SemiBold.woff") format("woff");
+  font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: Raleway;
-  src: url(../fonts/Raleway-SemiBold.woff) format("woff"), url(../fonts/Raleway-SemiBold.woff2) format("woff2");
+  src: url('../fonts/Raleway-Bold.woff2') format("woff2"), url('../fonts/Raleway-Bold.woff') format("woff");
   font-weight: 700;
   font-style: normal;
 }

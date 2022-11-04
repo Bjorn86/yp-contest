@@ -24,6 +24,7 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__text-wrapper/footer__text-wrapper.css');
 @import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__link/footer__link.css');
 
 /* MENU */
 @import url('../blocks/menu/menu.css');
