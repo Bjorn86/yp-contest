@@ -1,5 +1,5 @@
 .places__paragraph {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 15px;
   line-height: 20px;
   margin: 0;
@@ -15,5 +15,13 @@
   .places__paragraph {
     font-size: 15px;
     line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places__paragraph {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
   }
 }
