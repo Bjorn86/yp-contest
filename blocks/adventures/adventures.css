@@ -1,0 +1,14 @@
+.adventures {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 60px 84px;
+  gap: 100px;
+  font-family: "Raleway", "Arial", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .adventures {
+    gap: 50px;
+  }
+}

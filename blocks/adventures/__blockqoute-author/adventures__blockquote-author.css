@@ -1,0 +1,14 @@
+.adventures__blockquote-author {
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .adventures__blockquote-author {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

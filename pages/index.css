@@ -47,6 +47,18 @@
 @import url(../blocks/places/__text-block/places__text-block.css);
 @import url(../blocks/places/__paragraph-wrapper/places__paragraph-wrapper.css);
 @import url(../blocks/places/__image/_revers/places__image_reverse.css);
+
+/* ADVENTURES */
+@import url(../blocks/adventures/adventures.css);
+@import url(../blocks/adventures/__wrapper/adventures__wrapper.css);
+@import url(../blocks/adventures/__title/adventures__title.css);
+@import url(../blocks/adventures/__people/adventures__people.css);
+@import url(../blocks/adventures/__blockquotes/adventures__blockquotes.css);
+@import url(../blocks/adventures/__blockquote/adventures__blockquote.css);
+@import url(../blocks/adventures/__blockqoute-author/adventures__blockquote-author.css);
+@import url(../blocks/adventures/__blockquote-text/adventures__blockqoute-text.css);
+@import url(../blocks/adventures/__wrapper/adventures__wrapper.css);
+
 /* SECTION-TITLE */
 @import url('../blocks/section-title/section-title.css');
 

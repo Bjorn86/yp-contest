@@ -1,0 +1,22 @@
+.adventures__blockquotes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 1090px) {
+  .adventures__blockquotes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .adventures__blockquotes {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    max-width: 100%;
+    padding: 0;
+
+  }
+}
