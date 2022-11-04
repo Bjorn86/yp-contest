@@ -10,5 +10,6 @@
 @media screen and (max-width: 400px) {
   .adventures {
     gap: 50px;
+    padding: 0 25px 84px;
   }
 }
