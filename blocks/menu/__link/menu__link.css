@@ -4,7 +4,6 @@
   line-height: 1.1;
   text-decoration: none;
   color: #000;
-  transition: .5s;
 }
 
 @media screen and (max-width: 544px) {
