@@ -1,5 +1,17 @@
 .content {
   display: flex;
   flex-direction: column;
-  gap: 84px;
+  gap: 132px;
+}
+
+@media screen and (max-width: 896px) {
+  .content {
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content {
+    gap: 80px;
+  }
 }
