@@ -1,7 +1,7 @@
 .modal__close {
   position: absolute;
-  right: -40px;
-  top: 5px;
+  right: 10px;
+  top: 10px;
   padding: 0;
   width: 30px;
   height: 30px;

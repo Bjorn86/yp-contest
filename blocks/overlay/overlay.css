@@ -1,4 +1,7 @@
 .overlay {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   position: fixed;
   left: 0;
   top: 0;
@@ -8,5 +11,8 @@
   width: 100vw;
   height: 100vh;
   padding: 30px;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .0);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .5s, background-color .8s;
 }
