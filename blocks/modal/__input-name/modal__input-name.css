@@ -1,0 +1,8 @@
+.modal__input-name {
+  height: 40px;
+  padding: 0 15px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid;
+}

@@ -1,0 +1,12 @@
+.modal__submit {
+  margin: 0 auto;
+  width: 160px;
+  height: 40px;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--color-main);
+  font-size: 16px;
+  font-weight: 700;
+  color: #1F5967;
+  cursor: pointer;
+}

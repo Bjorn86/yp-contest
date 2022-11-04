@@ -1,0 +1,12 @@
+.modal {
+  font-family: "Raleway", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+  max-height: 340px;
+  border-radius: 20px;
+  background-color: #fff;
+}
