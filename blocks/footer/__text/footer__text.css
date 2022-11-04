@@ -1,7 +1,7 @@
 .footer__text {
   margin: 0;
   font-weight: 700;
-  font-size: calc(24px + (37 - 24) * (100vw - 320px) / (1280 - 320));
+  font-size: 37px;
   line-height: 1.2;
   text-align: center;
 }
