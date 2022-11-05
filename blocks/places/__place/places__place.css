@@ -9,5 +9,5 @@
   .places__place {
     grid-template-columns: 1fr;
     max-width: 100%;
- }
+  }
 }
