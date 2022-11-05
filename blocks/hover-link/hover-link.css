@@ -1,4 +1,4 @@
 .hover-link:hover {
-  color: #1F5967;
+  color: var(--color-sub);
   opacity: .8;
 }
