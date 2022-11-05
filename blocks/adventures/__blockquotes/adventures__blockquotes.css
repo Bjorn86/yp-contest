@@ -1,7 +1,7 @@
 .adventures__blockquotes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 40px;
+  column-gap: 55px;
 }
 
 @media screen and (max-width: 1090px) {
@@ -16,6 +16,5 @@
     grid-template-columns: 1fr;
     row-gap: 40px;
     max-width: 100%;
-    padding: 0;
   }
 }

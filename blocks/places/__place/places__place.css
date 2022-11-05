@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 100%;
-  font-family: "Raleway", "Arial", sans-serif;
 }
 
 @media screen and (max-width: 800px) {

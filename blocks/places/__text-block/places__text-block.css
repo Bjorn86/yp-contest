@@ -1,11 +1,10 @@
 .places__text-block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 60px;
+  padding: 60px 70px;
   box-sizing: border-box;
-  max-width: 500px;
-  row-gap: 50px;
+  max-width: 550px;
+  row-gap: 190px;
 }
 
 @media screen and (max-width: 896px) {

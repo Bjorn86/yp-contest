@@ -1,8 +1,10 @@
 .adventures__wrapper {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
-  max-width: 50%;
+  row-gap: 30px;
+  max-width: 40%;
+  box-sizing: border-box;
+  padding-top: 5px;
 }
 
 @media screen and (max-width: 800px) {
