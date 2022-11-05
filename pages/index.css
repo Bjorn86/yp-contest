@@ -24,6 +24,7 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__text-wrapper/footer__text-wrapper.css');
 @import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__link/footer__link.css');
 
 /* MENU */
 @import url('../blocks/menu/menu.css');
@@ -62,3 +63,19 @@
 
 /* SECTION-DESCRIPTION */
 @import url('../blocks/section-description/section-description.css');
+
+/* HOVER-LINK */
+@import url('../blocks/hover-link/hover-link.css');
+
+/* OVERLAY */
+@import url('../blocks/overlay/overlay.css');
+@import url('../blocks/overlay/_active/overlay_active.css');
+
+/* MODAL */
+@import url('../blocks/modal/modal.css');
+@import url('../blocks/modal/__close/modal__close.css');
+@import url('../blocks/modal/__form/modal__form.css');
+@import url('../blocks/modal/__input-name/modal__input-name.css');
+@import url('../blocks/modal/__input-text/modal__input-text.css');
+@import url('../blocks/modal/__submit/modal__submit.css');
+
