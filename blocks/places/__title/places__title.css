@@ -8,7 +8,7 @@
 @media screen and (min-width: 1400px) {
   .places__title {
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.1;
   }
 }
 

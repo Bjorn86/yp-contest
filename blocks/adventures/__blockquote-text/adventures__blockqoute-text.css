@@ -3,13 +3,13 @@
   padding-top: 20px;
   font-weight: 600;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 1.4;
 }
 
 @media screen and (max-width:400px) {
   .adventures__blockquote-text {
     font-weight: 400;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.2;
   }
 }

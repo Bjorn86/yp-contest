@@ -3,12 +3,11 @@
   margin: 0;
   font-weight: 700;
   font-size: 11px;
-  line-height: 20px;
+  line-height: 1.4;
 }
 
 @media screen and (max-width: 400px) {
   .adventures__blockquote-author {
     font-size: 14px;
-    line-height: 18px;
   }
 }
