@@ -7,6 +7,11 @@
   background-color: var(--color-main);
   font-size: 16px;
   font-weight: 700;
-  color: #1F5967;
+  color: var(--color-sub);
   cursor: pointer;
+  transition: font-size .5s;
+}
+
+.modal__submit:hover {
+  font-size: 17px;
 }
