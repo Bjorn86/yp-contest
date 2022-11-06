@@ -10,6 +10,7 @@
   <meta name="author" content="Максим Оржеховский">
   <title>Куда я поеду</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 </head>
 <body class="page">
   <header class="header">
@@ -19,13 +20,13 @@
           <a href="./index.html" class="menu__link hover-link">Мечты</a>
         </li>
         <li class="menu__item">
-          <a href="expactation.html" class="menu__link hover-link">Ожидания</a>
+          <a href="./expactation.html" class="menu__link hover-link">Ожидания</a>
         </li>
         <li class="menu__item">
           <a href="./reality.html" class="menu__link hover-link">Реальность</a>
         </li>
         <li class="menu__item menu__item_position_right">
-          <a href="#" class="menu__link hover-link" data-modal>Пожаловаться</a>
+          <button class="menu__button hover-link" data-modal>Пожаловаться</button>
         </li>
       </ul>
     </nav>
@@ -130,7 +131,7 @@
       <button class="modal__close"></button>
       <form action="#" id="complaint" class="modal__form">
         <input name="name" required placeholder="Ваше имя" type="text" form="complaint" class="modal__input-name">
-        <textarea name="message" required placeholder="Введите ваше сообщение" form="complaint" cols="30" rows="8" class="modal__input-text"></textarea>
+        <textarea name="message" required placeholder="Ваше сообщение" form="complaint" cols="30" rows="8" class="modal__input-text"></textarea>
         <button class="modal__submit">Отправить</button>
       </form>
     </div>

@@ -10,6 +10,6 @@
 @media screen and (max-width: 544px) {
   .menu__link {
     font-size: 20px;
-    color: #fff;
+    color: var(--color-main);
   }
 }

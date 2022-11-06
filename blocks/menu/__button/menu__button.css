@@ -1,0 +1,18 @@
+.menu__button {
+  width: 100px;
+  height: 18px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.1;
+  transition: .5s;
+}
+
+@media screen and (max-width: 544px) {
+  .menu__button {
+    font-size: 20px;
+    color: var(--color-main);
+  }
+}
