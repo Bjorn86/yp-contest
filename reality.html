@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Мечты о путешествиях, о том как и куда хочется поеать">
+  <meta name="keywords" content="Путешествия, отдых, мечты, места, планы">
+  <meta name="author" content="Данила Легкобытов">
+  <meta name="author" content="Максим Оржеховский">
+  <title>Реальность</title>
+  <link rel="stylesheet" href="./pages/reality.css">
+</head>
+<body class="page">
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="./index.html" class="menu__link hover-link">Мечты</a>
+        </li>
+        <li class="menu__item">
+          <a href="#" class="menu__link hover-link">Ожидания</a>
+        </li>
+        <li class="menu__item">
+          <a href="./reality.html" class="menu__link hover-link">Реальность</a>
+        </li>
+        <li class="menu__item menu__item_position_right">
+          <a href="#" class="menu__link hover-link" data-modal>Пожаловаться</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="hamburger">
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+      <span class="hamburger__line"></span>
+    </div>
+  </header>
+  <main class="content page__content">
+    <section class="intro">
+      <div class="intro__text-wrapper">
+        <h1 class="section-title">Куда я&nbsp;приехал</h1>
+        <p class="section-description">Куда я&nbsp;приехал, пока можно было поехать</p>
+      </div>
+      <img src="./images/place-khazakhstan.jpeg" alt="Фотография выхода с аэропорта в Астане" class="intro__img">
+    </section>
+    <section class="places" aria-label="Места для отдыха">
+      <article class="places__place">
+        <img class="places__image" alt="Человек возле водопада в лесу" src="./images/place-Astana.jpeg">
+        <div class="places__text-block places__text-block_padding_large">
+          <h2 class="places__title">Приехал в Астану</h2>
+          <div class="places__paragraph-wrapper">
+            <p class="places__paragraph">
+              Астана&nbsp;&mdash; это город контрастов, коротый разделен на&nbsp;две условные части, &laquo;старую&raquo; и&nbsp;&laquo;новую&raquo;.
+            <p class="places__paragraph">
+              Для меня было неожинданностью увидеть &laquo;Moscow-City&raquo; в&nbsp;Астане, но&nbsp;не&nbsp;смотря на&nbsp;обильную застроку новыми домами в&nbsp;воздухе зависло ощущение, что они пустые. Имено с&nbsp;этого города началось моё знакомство с&nbsp;Казахстаном.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="places__place">
+        <div class="places__text-block">
+          <h2 class="places__title">Приехал в Атырау</h2>
+          <div class="places__paragraph-wrapper">
+            <p class="places__paragraph">
+              Нефтяная столица Казахстана, достаточно милый и&nbsp;уютных городок. Но&nbsp;есть и&nbsp;свои минусы, например, плохая экология. В&nbsp;черте города находится нефтеперерабатывающтй завод, который постоянно делает вредные выбросы в&nbsp;атмосферу.
+            </p>
+          </div>
+        </div>
+        <img class="places__image places__image_reverse" alt="Человек перед горами" src="./images/place-Atyrau.jpeg">
+      </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__text-wrapper">
+      <p class="footer__text">&copy; 2022</p>
+      <a href="https://github.com/Maksim-Orzhekhovskiy" target="_blank" class="footer__link hover-link">Максим Оржеховский</a>
+      <p class="footer__text">&amp;</p>
+      <a href="https://github.com/Bjorn86" target="_blank" class="footer__link hover-link">Данила Легкобытов</a>
+    </div>
+  </footer>
+  <div class="overlay">
+    <div class="modal">
+      <button class="modal__close"></button>
+      <form action="#" id="complaint" class="modal__form">
+        <input name="name" required placeholder="Ваше имя" type="text" form="complaint" class="modal__input-name">
+        <textarea name="message" required placeholder="Введите ваше сообщение" form="complaint" cols="30" rows="8" class="modal__input-text"></textarea>
+        <button class="modal__submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+  <script src="./blocks/hamburger/hamburger.js"></script>
+  <script src="./blocks/modal/modal.js"></script>
+</body>
+</html>
